@@ -17,7 +17,7 @@ header{
     width: 150px;
     margin-left: 3rem;
     box-sizing: border-box;
-    background-image: url(logo.jpeg);
+    background-image: url(img/logo.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -29,7 +29,7 @@ nav{
     box-sizing: border-box;
 }
 main{
-    background: linear-gradient(to left, rgba(255, 255, 255,0),rgba(252, 253, 246,.1)),url(background.png);
+    background: linear-gradient(to left, rgba(255, 255, 255,0),rgba(252, 253, 246,.1)),url(img/background.png);
     background-repeat: no-repeat;
     background-size: 1000px 667px;
     background-position: right;
@@ -43,16 +43,6 @@ main{
     color:#c45256;
     font-weight: bolder;
     font-size: 25px;
-}
-.fondo{
-    min-width: 50px;
-    min-height: 50px;
-    width: 65%;
-    height: 100%;
-    background-image: url(background.jpg);
-    box-sizing: content-box;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .form-log{
     height: 80px;
@@ -89,7 +79,7 @@ h2:hover ,.hv:hover,.menu-item:hover{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #c45256;
-    background-image:url(search.svg);
+    background-image:url(img/search.svg);
     background-size: 30px;
     background-repeat: no-repeat;
 }
