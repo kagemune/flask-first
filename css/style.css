@@ -17,7 +17,7 @@ header{
     width: 150px;
     margin-left: 3rem;
     box-sizing: border-box;
-    background-image: url(img/logo.jpeg);
+    background-image: url(../img/logo.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -29,9 +29,9 @@ nav{
     box-sizing: border-box;
 }
 main{
-    background: linear-gradient(to left, rgba(255, 255, 255,0),rgba(252, 253, 246,.1)),url(img/background.png);
+    background: linear-gradient(to left, rgba(255, 255, 255,0),rgba(252, 253, 246,.1)),url(../img/background.png);
     background-repeat: no-repeat;
-    background-size: 1000px 667px;
+    background-size: 900px 500px;
     background-position: right;
 }
 .menu{
@@ -79,7 +79,7 @@ h2:hover ,.hv:hover,.menu-item:hover{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #c45256;
-    background-image:url(img/search.svg);
+    background-image:url(../img/search.svg);
     background-size: 30px;
     background-repeat: no-repeat;
 }
