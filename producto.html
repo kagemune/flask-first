@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/coment-box.css">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Producto</title>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav class="nav-bar">
+            <ul>
+                <li class="menu"><a class="menu-item" href="#">Inicio</a></li>
+                <li class="menu"><a class="menu-item" href="#">Cuenta</a></li>
+                <li class="menu"><a class="menu-item" href="#">Cerrar sesion</a></li>
+                <li class="menu"><a class="menu-item" href="#">contactenos </a></li>
+            </ul>
+            <form class="form-log" action="" method="get">
+                <label for="search"></label>
+                <input type="text" placeholder="buscar" name="search" id="search" class="search" autofocus >
+                <input type="button" value="" class="btn-search" id="btn-search">
+            </form>
+        </nav>
+    </header>
+    <!--fin del header-->
+    <main class="producto">
+        <section>
+            <div class="main-product" id="main-product">
+                <img src="img/cafecito.jpg" alt="cafecito">
+            </div>
+            <hr>
+            <div class="relate-product" id="relate-product">
+                <h3>productos relacionados</h3><br>
+                <div class="rel-pro"><h4>preducto 1</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+                <div class="rel-pro"><h4>preducto 2</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+                <div class="rel-pro"><h4>preducto 3</h4><img src="img/cafecito.jpg" alt="cafecito"></div>
+            </div>
+        </section>
+
+        <!--fin del section-->
+
+        <aside>
+            <h2>Producto</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit quod quia eius repellendus 
+                rem. Doloremque asperiores quis harum ipsum illum temporibus corrupti magni illo, explicabo eius 
+                quae, impedit voluptatibus.
+                Repellendus suscipit excepturi explicabo iusto ducimus corporis facere officia, nulla eum nam, illo 
+                voluptatem quidem alias! Ipsa rerum cupiditate dolor, et beatae illo doloribus tempore, repudiandae 
+                blanditiis ullam incidunt esse!
+                Maiores voluptatem in et, recusandae fuga ipsa pariatur ullam repudiandae commodi, iusto at placeat 
+                porro incidunt est odio perspiciatis. Neque, aliquam. Pariatur quo quis inventore iste rem adipisci 
+                sint incidunt?
+            </p>
+            <br>
+            <hr>
+            <br>
+            
+            <form class="comentarios" action="" method="post">
+                <h3>Comentarios</h3><br>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quod qui, unde aperiam 
+                    molestiae inventore tenetur tempora veniam reprehenderit eius. Sunt quidem nulla esse, voluptas 
+                    distinctio eligendi quibusdam et voluptatem.
+                </p>
+                <br>
+                <textarea class="coment" name="comentario" placeholder="Comenta aqui" id="cometario" cols="40" rows="5"></textarea>
+                <p class="clasificacion">
+                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                    --><label class="star" for="radio1">★</label><!--
+                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                    --><label class="star" for="radio2">★</label><!--
+                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                    --><label class="star"  for="radio3">★</label><!--
+                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                    --><label class="star" for="radio4">★</label><!--
+                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                    --><label class="star" for="radio5">★</label>
+                </p>
+                <input class="entrar" type="button" value="Comentar">
+            </form>
+        </aside>
+    </main>
+
+</body>
+</html>

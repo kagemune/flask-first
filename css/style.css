@@ -5,6 +5,7 @@
 body{
     width: 100%;
     background-color: #f7f7f7;
+    justify-content: space-evenly;
 }
 header{
     display: flex;
@@ -28,7 +29,7 @@ nav{
     justify-content: space-around;
     box-sizing: border-box;
 }
-main{
+.fondo{
     background: linear-gradient(to left, rgba(255, 255, 255,0),rgba(252, 253, 246,.1)),url(../img/background.png);
     background-repeat: no-repeat;
     background-size: 900px 500px;
