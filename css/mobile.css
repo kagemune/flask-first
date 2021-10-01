@@ -1,5 +1,93 @@
-@media only screen and (max-width: 411px){
-    .fondo{
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width:412px){
+    body{
+        width: 100%;
+        max-width: 412px;
+    }
+    header{
+        grid-template-columns: 1fr auto;
+    }
+    .fondo {
+        background-image: none;
+        background-color: #f7f7f7;
+        width: 100%;
+    }
+    .log-in{
+        width: 100%;
+    }
+    .toggle, .toggle1{
+        background-color: #c45256;
+        color:#f7f7f7;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        font-weight: bolder;
+        font-size: 25px;
+        justify-content: center;
+    }
+    .toggle:active{
+        background-color:#beda2e;
+    }
+    .nav_menu{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #c45256;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        overflow: auto;
+        transition: left 0.1s;
+    }
+    .nav_menu_visible{
+        left: 0;
+        display: flex;
+
+    }
+    .menu-item{
+        color: #f7f7f7;
+    }
+    .nav-bar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        
+    }
+    .search{
+        display: none;
+    }
+    .form-log{
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .btn-search{
+        width: 50px;
+        height: 50px;
+        background-position: center;
+    }
+    .producto{
+        display: block;
+        width: 100%;
+
+    }
+    aside{
+        width: 99%;
+    }
+    .coment{
+        width: 80%;
+    }
+    .main-product,.relate-product{
+        margin: .5rem;
+    }
+    .clasificacion{
+        width: 250px;
     }
 }

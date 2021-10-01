@@ -14,7 +14,7 @@
 .clasificacion{
     direction: rtl;/* de derecha a izquierda */
     unicode-bidi: bidi-override;/* bidi de bidireccional */
-    width: 120px;
+    width: 150px;
 }
 .comentarios{
     width: 99%;

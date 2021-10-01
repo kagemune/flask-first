@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script defer src="https://kit.fontawesome.com/5b0f61e452.js" crossorigin="anonymous"></script>
+    <script defer src="js/bars.js"></script>
     <title>login</title>
 </head>
+
 <body>
     <header>
         <div class="logo"></div>
         <nav class="nav-bar">
-            <ul>
+            <button class="toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav_menu">
+                <button class="toggle1">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <li class="menu"><a class="menu-item" href="#">Inicio</a></li>
-                <li class="menu"><a class="menu-item" href="#">Cuenta</a></li>
-                <li class="menu"><a class="menu-item" href="#">Cerrar sesion</a></li>
+                <li class="menu"><a class="menu-item" href="#">Login</a></li>
                 <li class="menu"><a class="menu-item" href="#">contactenos </a></li>
             </ul>
             <form class="form-log" action="" method="get">
                 <label for="search"></label>
-                <input type="text" placeholder="buscar" name="search" id="search" class="search" autofocus >
+                <input type="text" placeholder="buscar" name="search" id="search" class="search" autofocus>
                 <input type="button" value="" class="btn-search" id="btn-search">
             </form>
         </nav>
@@ -36,7 +46,8 @@
             <input type="button" value="Entrar" id="entrar" class="entrar"><br>
             <p>¿No tienes Cuenta? <a class="hv" href="#" title="go to registrar">Registrate</a></p><br>
         </form>
-        
+
     </main>
 </body>
+
 </html>

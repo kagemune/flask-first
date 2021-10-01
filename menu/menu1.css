@@ -1,0 +1,190 @@
+* {
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	background:#ffffff;
+}
+ 
+header {
+	width:100%;
+     
+}
+ 
+header nav {
+	margin: auto;
+	width:1400px;
+	max-width:1800px;
+	margin: auto;
+	background:#ffffff;
+    display: table;
+   display: table-cell;
+}
+ 
+
+#menu ul {
+
+ list-style:none;
+
+ margin:0;
+ padding:0;
+
+}
+
+
+
+/* items del menu */
+#menu ul li {
+ background-color:#ffffff;
+
+}
+
+
+
+/* enlaces del menu */
+#menu ul a {
+
+ display:block;
+
+ color:black;
+
+ text-decoration:none;
+
+ font-weight:500;
+
+ font-size:15px;
+
+ padding:10px;
+
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+ text-transform:uppercase;
+
+ letter-spacing:1px;
+
+}
+
+
+
+/* items del menu */
+#menu ul li {
+
+ position:relative;
+ display:inline ;
+
+ float:left;
+
+ margin:0;
+
+ padding:0;
+
+}
+
+
+
+/* efecto al pasar el ratón por los items del menu */
+#menu ul li:hover {
+
+ background:#bfd833;
+
+}
+
+
+
+/* menu desplegable */
+#menu ul ul {
+
+ display:none;
+
+ position:absolute;
+
+ top:100%;
+
+ left:0;
+
+ background:black;
+
+ padding:0;
+
+}
+
+
+
+/* items del menu desplegable */
+#menu ul ul {
+
+ display:none;
+
+ position:absolute;
+
+ top:100%;
+
+ left:0;
+
+ background:rgb(255, 255, 255);
+
+ padding:0;
+
+}
+
+
+
+/* items del menu desplegable */
+#menu ul ul li {
+
+ float:none;
+
+ width:100%;
+ 
+}
+
+
+
+/* enlaces de los items del menu desplegable */
+#menu ul ul a {
+
+ line-height:120%;
+
+ padding:10px 15px;
+
+}
+
+
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+
+ display:block;
+ background: #dfdfdb;
+
+}
+
+/* Para que quede sobre puesto */
+
+#menu {
+margin:auto;    
+
+z-index: 1;
+
+position:relative;
+
+
+}
+
+.buscar{
+	position: left;
+	padding: 5px;
+
+}
+.buscar input{
+
+	width: 240px;
+	height: 30px;
+	padding: 0 20px;
+	font-size: 18px;
+	
+	outline: none;
+	border-radius: 30px;
+}

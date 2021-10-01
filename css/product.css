@@ -1,15 +1,22 @@
 .producto{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 5rem;
     padding: 0;
     margin: 10px 0 5px 0;
-}
-section{
-    max-width:42%;
     box-sizing: border-box;
 }
+section{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
 aside{
-    max-width: 50%;
+
+    width: 90%;
     box-sizing: border-box;
     padding: 5px;
     margin-top: 50px;
@@ -17,7 +24,7 @@ aside{
 .main-product,.relate-product{
     width: 99%;
     box-sizing: border-box;
-    margin: 5rem;
+    margin: 2rem;
     border-radius: 10px;
 }
 .main-product img{
