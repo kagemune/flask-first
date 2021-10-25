@@ -1,0 +1,72 @@
+{%extends "base.html" %}
+
+    <!--fin del header-->
+    {%block contenido %}
+    <main class="producto">
+        
+            <div class="main-product" id="main-product">
+                <img src="{{prod2}}"alt="cafecito">
+            </div>
+            <div class="comentarios">
+                <h2>Producto</h2>
+                <p>
+                    {{productos}}
+                </p>
+            </div>
+    </main>
+    <hr>
+    <aside class="producto">
+        <div class="relate-product" id="relate-product">
+            <h3>productos relacionados</h3><br>
+            <div class="relate-products">  
+                <div class="rel-pro">
+                    <h4>producto 1</h4><img src= "{{ url_for('static', filename ='img/cafecito.jpg') }} " alt="cafecito">
+                </div>
+                <div class="rel-pro">
+                    <h4>producto 2</h4><img src= "{{ url_for('static', filename ='img/cafecito.jpg') }}" alt="cafecito">
+                </div>
+                <div class="rel-pro">
+                    <h4>producto 3</h4><img src= "{{ url_for('static', filename ='img/cafecito.jpg') }} "alt="cafecito"></div>
+                </div>
+            </div>      
+        </div>
+        <form class="comentarios" action="producto" method="post">
+            <div class="coment1" >  
+                <h3>Comentarios</h3><br>
+                <p>
+                    {%for coment in data%}
+                        <div> 
+                            {{coment.2}}
+                            <br>
+                            {{coment.4}}<label class="star star-c" for="radio1">★</label>
+                        </div>
+                    {%endfor%}
+                </p>
+            </div> 
+            <br>
+            <textarea class="coment" name="comentario" placeholder="Comenta aqui" id="cometario" cols="40" rows="5"></textarea>
+            <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <!--
+                --><label class="star" for="radio1">★</label>
+                <!--
+                --><input id="radio2" type="radio" name="estrellas" value="4">
+                <!--
+                --><label class="star" for="radio2">★</label>
+                <!--
+                --><input id="radio3" type="radio" name="estrellas" value="3">
+                <!--
+                --><label class="star" for="radio3">★</label>
+                <!--
+                --><input id="radio4" type="radio" name="estrellas" value="2">
+                <!--
+                --><label class="star" for="radio4">★</label>
+                <!--
+                --><input id="radio5" type="radio" name="estrellas" value="1">
+                <!--
+                --><label class="star" for="radio5">★</label>
+            </p>
+            <input class="entrar" type="submit" value="Comentar">
+        </form>
+    </aside>
+{% endblock %}

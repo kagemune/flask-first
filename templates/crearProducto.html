@@ -1,0 +1,13 @@
+{%extends "base.html"%}
+{%block contenido%} 
+    <form action="/crearproducto" method="POST" enctype="multipart/form-data" >
+        <label for="nombre">Nombre</label>
+        <input id="nombre"type="text" name="nombre">
+        <label for="imagen">subir imagen</label>
+        <input type="file" name="file" id="imagen">
+        <label for="descipcion">descripcion</label>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit"><strong>crear</strong></button>
+    </form>
+{%endblock%}

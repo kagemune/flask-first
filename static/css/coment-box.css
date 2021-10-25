@@ -1,0 +1,52 @@
+.star{
+    color: grey;
+    font-size: 30px;
+}
+.star:hover,.star:hover ~ .star{
+    color: #c45256;
+}
+.clasificacion input{
+    display: none;
+}
+.clasificacion input[type="radio"]:checked ~ .star, .star-c{
+    color: #beda2e;
+}
+.clasificacion{
+    direction: rtl;/* de derecha a izquierda */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+    width: 150px;
+}
+.comentarios{
+    width: 99%;
+    justify-content: center;
+    margin: 2rem 1rem;
+    box-sizing: border-box;
+    
+}
+.coment{
+    margin-top: 15px ;
+    width: 500px;
+    height: 100px;
+    border: 2px solid #c45256;
+    
+}
+.coment1{
+    margin: 15px ;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+}
+.coment:hover,.coment:active{
+    border: 2px solid #beda2e;
+}
+aside{
+    width: 100%;
+}
+@media only screen and (max-width:412px){
+    .comentarios{
+        margin: 0;
+    }
+    .coment{
+        width: 100%;
+    }
+}

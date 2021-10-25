@@ -1,0 +1,69 @@
+.bsq-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.menu-search-menu{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 15px;
+    border: solid #c45256 3px;
+    border-bottom: none;
+}
+.menu-search-menu li{
+    display: block;
+    list-style: none;
+    border-bottom: 3px solid #c45256;
+    border-radius: 15px;
+}
+.menu-search{
+    color: #c45256;
+    display: block;
+    font-size: 30px;
+}
+.menu-search-active,.menu-search:hover,.menu-search-menu li:hover{
+    color: #f7f7f7;
+    background-color: #beda2e;
+}
+.ficha-bsq{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: solid #c45256 3px;
+    border-radius: 15px;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+.ficha-bsq p{
+    padding: 1rem;
+}
+.bsq-pro{
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+}
+.bsq-img{
+    border-radius: 15px;
+    width: 100%;
+}
+.precio, .ico {
+    text-align: center;
+    font-size: 2rem;
+
+
+}
+.icono{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+}
+.resultados-bsq{
+    text-align: center;
+}
+

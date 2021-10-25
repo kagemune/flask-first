@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{%block contenido%}
+<div class="producto">
+    <div style="justify-content: center; text-align:center; margin:3rem; ">
+        <h1 style="margin: 2rem;"><strong>ERROR</strong></h1>
+        <P>{{error}}</P>
+    </div>
+    <img src="{{url_for('static', filename='img/404.png')}}" alt="error.png">
+</div>
+{% endblock %}
