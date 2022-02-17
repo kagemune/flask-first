@@ -105,8 +105,8 @@ const questions = [
   {
     question: 'what PNC feature let you dodge overdraft fee?',
     answers: [
-      { text: 'low cash mode and overdarft protection', correct: false },
-      { text: 'overdraft coverage', correct: true }
+      { text: 'low cash mode and overdarft protection', correct: true },
+      { text: 'overdraft coverage', correct: false }
     ]
   }
 ]
